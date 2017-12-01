@@ -1,4 +1,4 @@
-# Pic and Pick
+# Pic and Pick (codenamed : Cookies)
 
 ## Description
 * Use your iphone to scan grocery images and get item information. This is faster than barcode scanning. 
