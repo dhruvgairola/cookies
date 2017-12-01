@@ -1,0 +1,88 @@
+
+# Created by https://www.gitignore.io/api/gradle,intellij
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+cookies_ml/node_modules/*
+
+# User-specific stuff:
+cookies_api/.idea/**/workspace.xml
+cookies_api/.idea/**/tasks.xml
+cookies_api/.idea/dictionaries
+
+# Sensitive or high-churn files:
+cookies_api/.idea/**/dataSources/
+cookies_api/.idea/**/dataSources.ids
+cookies_api/.idea/**/dataSources.xml
+cookies_api/.idea/**/dataSources.local.xml
+cookies_api/.idea/**/sqlDataSources.xml
+cookies_api/.idea/**/dynamic.xml
+cookies_api/.idea/**/uiDesigner.xml
+
+# Gradle:
+cookies_api/.idea/**/gradle.xml
+cookies_api/.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+
+# Mongo Explorer plugin:
+cookies_api/.idea/**/mongoSettings.xml
+
+## File-based project format:
+cookies_api/*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+cookies_api/out/
+
+# mpeltonen/sbt-idea plugin
+cookies_api/.idea_modules/
+cookies_api/.idea/modules/*
+
+# JIRA plugin
+cookies_api/atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+cookies_api/.idea/replstate.xml
+
+# Ruby plugin and RubyMine
+cookies_api/.rakeTasks
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+cookies_api/com_crashlytics_export_strings.xml
+cookies_api/crashlytics.properties
+cookies_api/crashlytics-build.properties
+cookies_api/fabric.properties
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+cookies_api/.idea/sonarlint
+
+### Gradle ###
+.gradle
+cookies_api/**/build/
+
+# Ignore Gradle GUI config
+cookies_api/gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+cookies_api/!gradle-wrapper.jar
+
+# Cache of project
+cookies_api/.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# End of https://www.gitignore.io/api/gradle,intellij

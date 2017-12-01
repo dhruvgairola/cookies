@@ -1,0 +1,29 @@
+source 'https://stash.lblw.ca/scm/ios/analyticskit.git'
+source 'https://stash.lblw.ca/scm/ios/barcodekit.git'
+source 'https://stash.lblw.ca/scm/ios/coordinatorkit.git'
+source 'https://stash.lblw.ca/scm/ios/textsizekit.git'
+source 'https://stash.lblw.ca/scm/ios/overlaykit.git'
+source 'https://stash.lblw.ca/scm/ios/extensionskit.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'picnpick' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for picnpick
+  pod 'CameraManager', '~> 4.0'
+  pod 'Socket.IO-Client-Swift'
+  pod 'Alamofire'
+  pod 'ObjectMapper'
+  
+  #Private Pods
+  pod 'AnalyticsKit'
+  pod 'BarcodeKit'
+  pod 'CoordinatorKit'
+  pod 'TextSizeKit'
+  pod 'OverlayKit'
+  pod 'ExtensionsKit'
+end

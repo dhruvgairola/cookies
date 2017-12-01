@@ -1,0 +1,69 @@
+
+# Project specific
+
+# Ignore local xcconfig. Allows developers to override build settings without polluting the repo.
+Configs/local.xcconfig
+
+# binaries
+*.ipa
+*.apk
+*.app
+*.dSYM
+
+# Mac OS X
+.DS_Store
+__MACOSX
+
+# Jetbrains
+.idea/
+
+# ruby/calabash/cucumber
+.bundle
+*.gem
+report
+reports
+screenshots
+*screenshot*.png
+vendor
+.irb-history
+
+## Build generated
+build/
+DerivedData
+artifact
+
+node_modules/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# CocoaPods
+#
+Pods/
+Podfile.swp
+.ruby-version
+
+# Fastlane
+#
+fastlane_builds/
+mobile-picker-archive/
+fastlane/report.xml
+fastlane/Preview.html
