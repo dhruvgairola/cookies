@@ -4,6 +4,12 @@
 * Use your iphone to scan grocery images and get item information. This is faster than barcode scanning. 
 * Sync item information across all your family's phones in real-time. 60% of families shop cooperatively. This code was written for a hackathon.
 
+## Team Members
+* Dhruv Gairola (api, ml)
+* Nick Gorman (iphone)
+* Anthony Chow (api, ml)
+* Cibisounder Sadasivam (ml)
+
 ## Components
 
 * Spring Boot API for business logic (cookies_api)
@@ -39,9 +45,3 @@ npm install
 
 node index.js
 ```
-
-## Team Members
-* Dhruv Gairola
-* Nick Gorman
-* Anthony Chow
-* Cibisounder Sadasivam
