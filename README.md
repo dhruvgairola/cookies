@@ -2,7 +2,8 @@
 
 ## Description
 * Use your iphone to scan grocery images and get item information. This is faster than barcode scanning. 
-* Sync item information across all your family's phones in real-time. 60% of families shop cooperatively. This code was written for a hackathon.
+* Sync item information across all your family's phones in real-time. 60% of families shop cooperatively. 
+* Code was written for an all-nighter Hackathon.
 
 ## Team Members
 * Dhruv Gairola (api, ml)
