@@ -6,8 +6,8 @@
 
 ## Team Members
 * Dhruv Gairola (api, ml)
-* Nick Gorman (iphone)
-* Anthony Chow (api, ml)
+* Nick Gorman (iphone, sockets)
+* Anthony Chow (api, sockets, ml)
 * Cibisounder Sadasivam (ml)
 
 ## Components
