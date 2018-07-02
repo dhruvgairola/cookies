@@ -6,10 +6,10 @@
 * Code was written for an all-nighter Hackathon.
 
 ## Team Members
-* Dhruv Gairola (api, ml)
-* Nick Gorman (iphone, sockets)
-* Anthony Chow (api, sockets, ml)
-* Cibisounder Sadasivam (ml)
+* Dhruv Gairola, Loblaw Digital (api, ml)
+* Nick Gorman, Loblaw Digital (iphone, sockets)
+* Anthony Chow, Univ Toronto (api, sockets, ml)
+* Cibisounder Sadasivam, Univ Waterloo (ml)
 
 ## Components
 * Spring Boot API for business logic (cookies_api)
